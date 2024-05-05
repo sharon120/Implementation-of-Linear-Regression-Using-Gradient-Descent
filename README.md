@@ -8,13 +8,14 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Import the required library and read the dataframe.
 
-2.Write a function computeCost to generate the cost function.
+1.Add a column to x for the intercept,initialize the theta
+2.Perform graadient descent
+3.Read the csv file
+4.Assuming the last column is ur target variable 'y' and the preceeding column
+5.Learn model parameters
+6.Predict target value for a new data point
 
-3.Perform iterations og gradient steps with learning rate.
-
-4.Plot the Cost function using Gradient Descent and generate the required graph.
 ## Program:
 ```
 /*
@@ -57,7 +58,15 @@ print(f"Predicted value: {pre}")
 ```
 
 ## Output:
-![320173796-5cec1c00-44a4-421a-ab4a-cfdbf5958b69](https://github.com/sharon120/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/149555539/2a9dd103-0411-44fb-bac9-21ecb30b3ba5)
-![320173802-d7482722-e062-4720-a7d5-0012d670355e](https://github.com/sharon120/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/149555539/bc8ed552-e080-4729-822f-edfc4aad60f9)
+X & Y VALUES
+![3-1](https://github.com/sharon120/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/149555539/8983f422-ab6e-4a0d-85cc-c73d4dd00e0c)
+
+X-SCALED & Y-SCALED
+![3-2](https://github.com/sharon120/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/149555539/779f52fc-b65b-4d55-be09-c5ba9fef86e5)
+![3-3](https://github.com/sharon120/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/149555539/91ec616d-5a72-4bd5-a44a-adf65c83ddb5)
+
+PREDICTED VALUES
+![3-4](https://github.com/sharon120/Implementation-of-Linear-Regression-Using-Gradient-Descent/assets/149555539/cf6d95d2-020b-430b-8c65-1d6b2a5571ee)
+
 ## Result:
 Thus the program to implement the linear regression using gradient descent is written and verified using python programming.
